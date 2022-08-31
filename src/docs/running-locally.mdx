@@ -3,7 +3,7 @@ title: Running locally
 subtitle: Creating your own Beatmapper
 ---
 
-Beatmapper is open-source, meaning that its source code is made freely available for anyone to read and use. While you can't do _anything_ you want with it (it's [licensed under the MIT license](https://github.com/joshwcomeau/beatmapper/blob/master/LICENSE.md)), you are definitely free to create your own local copy and modify it for your personal, non-commercial endeavors.
+Beatmapper is open-source, meaning that its source code is made freely available for anyone to read and use. While you can't do _anything_ you want with it (it's [licensed under the MIT license](https://github.com/bsmg/beatmapper/blob/master/LICENSE.md)), you are definitely free to create your own local copy and modify it for your personal, non-commercial endeavors.
 
 Here are some reasons you might wish to do this:
 
@@ -24,7 +24,7 @@ Node.js is a Javascript server environment, which is needed to compile the Beatm
 
 ## Cloning or downloading the source code
 
-Beatmapper is [hosted on GitHub](https://github.com/joshwcomeau/beatmapper), an online source-code repository. We'll need to download a copy of this source code.
+Beatmapper is [hosted on GitHub](https://github.com/bsmg/beatmapper), an online source-code repository. We'll need to download a copy of this source code.
 
 GitHub lets you download a .zip of all the files you'll need:
 
@@ -155,7 +155,7 @@ Here's how shortcuts are organized in Beatmapper:
 - Shortcuts exclusive to the "Notes view" are registered in `src/components/NotesEditor/KeyboardShortcuts.js`
 - Shortcuts exclusive to the "Events view" are registered in `src/components/Events/KeyboardShortcuts.js`
 
-These 3 files contain _almost_ all of the keyboard shortcuts. There are some exceptions: for example, moving around in 3D space in the notes view happens in [src/controls.js](https://github.com/joshwcomeau/beatmapper/blob/master/src/controls.js#L30).
+These 3 files contain _almost_ all of the keyboard shortcuts. There are some exceptions: for example, moving around in 3D space in the notes view happens in [src/controls.js](https://github.com/bsmg/beatmapper/blob/master/src/controls.js#L30).
 
 > If you're not a Javascript developer, the contents of these files might look pretty intimidating. Happily, we won't be making any major changes; our tweaks for updating keyboard shortcuts will be pretty minimal.
 

@@ -71,7 +71,7 @@ const useActiveHeading = headings => {
 };
 
 const getGithubLink = pathname => {
-  const prefix = 'https://github.com/joshwcomeau/beatmapper/edit/master/src';
+  const prefix = 'https://github.com/bsmg/beatmapper/edit/master/src';
 
   if (pathname === '/docs') {
     return prefix + pathname + '/intro.mdx';

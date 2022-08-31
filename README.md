@@ -2,9 +2,9 @@
 
 ## A 3D editor for creating Beat Saber maps
 
-![Beatmapper preview](https://github.com/joshwcomeau/beatmapper/blob/master/preview.png?raw=true)
+![Beatmapper preview](https://github.com/bsmg/beatmapper/blob/master/preview.png?raw=true)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ff0379eb-23c2-4a68-ae7d-87ff4ede9cd9/deploy-status)](https://app.netlify.com/sites/awesome-golick-fc0f91/deploys)
+[![Docker Build](https://github.com/bsmg/beatmapper/actions/workflows/docker.yml/badge.svg)](https://github.com/bsmg/beatmapper/actions/workflows/docker.yml)
 
 Beatmapper is a _map editor_ for Beat Saber, a VR rhythm game. It allows you to create your own maps, for use in the game.
 
